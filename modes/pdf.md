@@ -31,26 +31,27 @@
 - Sin tablas anidadas
 - Keywords del JD distribuidas: Summary (top 5), primer bullet de cada rol, Skills section
 
-## Diseño del PDF
+## Diseno del PDF
 
-- **Fonts**: Space Grotesk (headings, 600-700) + DM Sans (body, 400-500)
-- **Fonts self-hosted**: `fonts/`
-- **Header**: nombre en Space Grotesk 24px bold + línea gradiente `linear-gradient(to right, hsl(187,74%,32%), hsl(270,70%,45%))` 2px + fila de contacto
-- **Section headers**: Space Grotesk 13px, uppercase, letter-spacing 0.05em, color cyan primary
+- **Fonts**: DM Sans (all text, self-hosted in `fonts/`)
+- **Header**: nombre en DM Sans 24px bold, izquierda alineado + linea horizontal negro 1.5px + fila de contacto "Location &bull; Phone &bull; Email &bull; LinkedIn"
+- **Section headers**: DM Sans 11.5px, uppercase, letter-spacing 0.04em, negro con borde inferior negro 1px solido
 - **Body**: DM Sans 11px, line-height 1.5
-- **Company names**: color accent purple `hsl(270,70%,45%)`
-- **Márgenes**: 0.6in
+- **Company names**: negro, bold 700
+- **Role/title**: italica, 10.5px, negro
+- **Sin colores de acento** -- todo negro y gris oscuro
+- **Margenes**: 0.6in
 - **Background**: blanco puro
 
 ## Orden de secciones (optimizado "6-second recruiter scan")
 
-1. Header (nombre grande, gradiente, contacto, link portfolio)
-2. Professional Summary (3-4 líneas, keyword-dense)
-3. Core Competencies (6-8 keyword phrases en flex-grid)
-4. Work Experience (cronológico inverso)
-5. Projects (top 3-4 más relevantes)
-6. Education & Certifications
-7. Skills (idiomas + técnicos)
+1. Header (nombre, linea negra, contacto en una linea)
+2. Professional Summary (3-4 lineas, keyword-dense)
+3. Work Experience (cronologico inverso)
+4. Projects (top 3-4 mas relevantes, solo si aplica al JD)
+5. Education
+6. Certifications (solo si existen)
+7. Technical Skills (categoria: items por linea)
 
 ## Estrategia de keyword injection (ético, basado en verdad)
 
@@ -70,27 +71,21 @@ Usar el template en `cv-template.html`. Reemplazar los placeholders `{{...}}` co
 | `{{LANG}}` | `en` o `es` |
 | `{{PAGE_WIDTH}}` | `8.5in` (letter) o `210mm` (A4) |
 | `{{NAME}}` | (from profile.yml) |
-| `{{PHONE}}` | (from profile.yml — include with its separator only when `profile.yml` has a non-empty `phone` value; omit both `<span>` and `<span class="separator">` otherwise) |
+| `{{PHONE}}` | (from profile.yml — include with its separator only when `profile.yml` has a non-empty `phone` value; omit both the value and surrounding `<span class="separator">` otherwise) |
 | `{{EMAIL}}` | (from profile.yml) |
 | `{{LINKEDIN_URL}}` | [from profile.yml] |
 | `{{LINKEDIN_DISPLAY}}` | [from profile.yml] |
-| `{{PORTFOLIO_URL}}` | [from profile.yml] (o /es según idioma) |
-| `{{PORTFOLIO_DISPLAY}}` | [from profile.yml] (o /es según idioma) |
 | `{{LOCATION}}` | [from profile.yml] |
 | `{{SECTION_SUMMARY}}` | Professional Summary / Resumen Profesional |
 | `{{SUMMARY_TEXT}}` | Summary personalizado con keywords |
-| `{{SECTION_COMPETENCIES}}` | Core Competencies / Competencias Core |
-| `{{COMPETENCIES}}` | `<span class="competency-tag">keyword</span>` × 6-8 |
 | `{{SECTION_EXPERIENCE}}` | Work Experience / Experiencia Laboral |
-| `{{EXPERIENCE}}` | HTML de cada trabajo con bullets reordenados |
-| `{{SECTION_PROJECTS}}` | Projects / Proyectos |
-| `{{PROJECTS}}` | HTML de top 3-4 proyectos |
-| `{{SECTION_EDUCATION}}` | Education / Formación |
-| `{{EDUCATION}}` | HTML de educación |
-| `{{SECTION_CERTIFICATIONS}}` | Certifications / Certificaciones |
-| `{{CERTIFICATIONS}}` | HTML de certificaciones |
-| `{{SECTION_SKILLS}}` | Skills / Competencias |
-| `{{SKILLS}}` | HTML de skills |
+| `{{EXPERIENCE}}` | HTML de cada trabajo. Cada job: `<div class="job"><div class="job-header"><span class="job-company">Company</span><span class="job-period">Date</span></div><div class="job-role-row"><span class="job-role">Role</span><span class="job-location">Location</span></div><ul><li>bullet</li></ul></div>` |
+| `{{PROJECTS_SECTION}}` | Bloque HTML completo `<div class="section avoid-break"><div class="section-title">...</div>{{PROJECTS}}</div>` — omitir completamente si no hay proyectos relevantes |
+| `{{SECTION_EDUCATION}}` | Education / Formacion |
+| `{{EDUCATION}}` | HTML de educacion. Cada item: `<div class="edu-item"><div class="edu-header"><span class="edu-org">University</span><span class="edu-year">Year</span></div><div class="edu-title">Degree</div></div>` |
+| `{{CERTIFICATIONS_SECTION}}` | Bloque HTML completo `<div class="section avoid-break"><div class="section-title">...</div>{{CERTIFICATIONS}}</div>` — omitir completamente si no hay certificaciones |
+| `{{SECTION_SKILLS}}` | Technical Skills / Habilidades Tecnicas |
+| `{{SKILLS}}` | Una `<div class="skill-row"><span class="skill-category">Category:</span> items</div>` por categoria |
 
 ## Canva CV Generation (optional)
 
