@@ -1,0 +1,366 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - main [ref=e5]:
+      - generic [ref=e9]:
+        - generic [ref=e16]:
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - text: 
+              - link "Walmart Careers Logo" [ref=e20] [cursor=pointer]:
+                - /url: /us/en/home
+                - img "Walmart Careers Logo" [ref=e21]
+            - generic [ref=e24]:
+              - button "Career areas" [ref=e25] [cursor=pointer]: Career areas Career areas
+              - button "Brands" [ref=e26] [cursor=pointer]: Brands Brands
+              - button "Resources" [ref=e27] [cursor=pointer]: Resources Resources
+              - button "About Us" [ref=e28] [cursor=pointer]: About Us About Us
+              - link "Military" [ref=e29] [cursor=pointer]:
+                - /url: /content/careers/us/en/home/careers-areas/Military
+          - generic [ref=e30]:
+            - search "Search by team, department, keyword" [ref=e36]:
+              - textbox "Search by team, department, keyword" [ref=e38]
+              - button "Search icon" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+            - img "User Account Icon" [ref=e43] [cursor=pointer]
+        - generic [ref=e46]:
+          - generic [ref=e49]:
+            - text: 
+            - generic [ref=e51]:
+              - img "Flair" [ref=e54]
+              - img "job-hero-image" [ref=e56]
+            - generic [ref=e57]:
+              - text: 
+              - generic [ref=e58]:
+                - img "job-hero-image" [ref=e60]
+                - generic [ref=e64]:
+                  - img [ref=e66]
+                  - img "Walmart logo" [ref=e69]
+                  - generic [ref=e70]:
+                    - paragraph [ref=e71]: Senior, Software Engineer (Backend)
+                    - paragraph [ref=e72]: Sunnyvale, CA
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:
+                      - button "Share" [ref=e75] [cursor=pointer]:
+                        - img [ref=e76]
+                      - button "Save" [ref=e79] [cursor=pointer]
+                    - button "Apply now" [ref=e81] [cursor=pointer]:
+                      - generic [ref=e82]: Apply now
+                      - generic [ref=e84]: 
+            - img "job-hero-image" [ref=e88]
+          - generic [ref=e93]:
+            - generic [ref=e96]:
+              - generic [ref=e98]: Role Details
+              - generic [ref=e100]: Benefits
+              - generic [ref=e102]: Life at Walmart
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - heading "Senior, Software Engineer (Backend)" [level=1] [ref=e113]
+                    - generic [ref=e114]:
+                      - generic [ref=e116]:
+                        - generic [ref=e118]:
+                          - text: 1375 Crossman Ave
+                          - text: Sunnyvale, CA 94089-1114
+                        - generic [ref=e120]: R-2452836
+                      - generic [ref=e125]:
+                        - region "Map" [ref=e126]
+                        - iframe [ref=e132]:
+                          
+                    - generic [ref=e133]:
+                      - generic [ref=e136]:
+                        - img [ref=e138]
+                        - generic [ref=e142]: $117,000 - $234,000/yr
+                      - generic [ref=e145]:
+                        - img [ref=e147]
+                        - generic [ref=e150]:
+                          - text: Regular/
+                          - text: Permanent
+                      - generic [ref=e153]:
+                        - img [ref=e155]
+                        - generic [ref=e158]: Salaried
+                  - generic [ref=e161]:
+                    - heading "Position Summary..." [level=2] [ref=e162]:
+                      - generic [ref=e202]: Position Summary...
+                    - paragraph
+                    - paragraph
+                    - heading "What you'll do..." [level=2] [ref=e203]:
+                      - generic [ref=e243]: What you'll do...
+                    - generic [ref=e244]: Immigration sponsorship is not available for this role
+                    - generic [ref=e245]: This is a full-time, onsite role at our Sunnyvale, CA office. This position is not eligible for remote work.
+                    - text: "Role Summary:"
+                    - text: We are seeking a talented and passionate Senior, Software Engineer (Backend) for our team. You will be part of Catalog Spec Engineering team and will be responsible for developing high performance and scalable catalog service that meet the needs of millions of Walmart customers. We are looking to bring more intellectually curious engineers who are passionate about technology in general.
+                    - text: "About the Team:"
+                    - text: Join the innovative Walmart Catalog team, where creativity and technological innovation drive success. We specialize in enhancing seller and supplier experiences in setting up their catalog and managing catalog platform. Our tech stack includes Java for backend services, providing an exciting opportunity for growth and collaboration. Our Catalog Spec Engineering team has built the next generation platform where you’ll independently handle high impact, critical software/systems monitoring issues, troubleshoot business and production issues. As a member of this fast-moving and highly entrepreneurial team, you’ll be able to say that you work for the world’s largest retailer and contribute to innovation and development to best-in-class methodologies that impacted perception and drastically changed business as we know it.
+                    - text: "What You'll Do:"
+                    - list [ref=e246]:
+                      - listitem [ref=e247]: Design & develop highly scalable services and solve complex software system problems by leveraging state-of-the-art technology and enhance Walmart catalog and partner experience solutions.
+                      - listitem [ref=e248]: Troubleshoot business and production issues by gathering information and engaging support teams to resolve issues.
+                      - listitem [ref=e249]: Perform root cause analysis to prevent future occurrence of issues and ensure compliance with Walmart code of conduct.
+                      - listitem [ref=e250]: Provide technical guidance and mentorship to junior team members to ensure compliance with Walmart code of conduct.
+                      - listitem [ref=e251]: Work in an agile environment, adhering to best practices and collaborating with teams to deliver results.
+                      - listitem [ref=e252]: Stay up to date with the latest GenAI trends and technologies and contribute to the development of innovative solutions that improve the seller and supplier experience on our catalog platform.
+                      - listitem [ref=e253]: Participate in medium- to large-scale, complex, cross-functional projects ensuring on-time delivery.
+                    - text: "What You'll Bring:"
+                    - list [ref=e254]:
+                      - listitem [ref=e255]: 6-8 years of experience as a Sr. Software Engineer.
+                      - listitem [ref=e256]: Expert-level knowledge of Java and experience building Java-based backend systems.
+                      - listitem [ref=e257]: Extensive experience building and implementing microservices and applications using SpringBoot and reactive frameworks like Spring WebFlux.
+                      - listitem [ref=e258]: Experience in internet-scale distributed technologies (e.g. Solr, Kafka, Mem Cache, etc.).
+                      - listitem [ref=e259]: Strong understanding of JEE components, multithreading, and networking.
+                      - listitem [ref=e260]: Extensive knowledge of offline storage, caching, and performance tuning.
+                      - listitem [ref=e261]: Experience with cloud-based solutions and hands-on experience with CI/CD development environments/tools, including Git, Maven, and Jenkins.
+                      - listitem [ref=e262]: Strong understanding of CS fundamentals, microservices, data structures, algorithms, and problem solving.
+                      - listitem [ref=e263]: Experience working with generated AI/ML technologies.
+                      - listitem [ref=e264]: Experience with NoSQL databases like Cosmos DB, Cassandra and ability to design and implement scalable data models.
+                    - heading [level=2]
+                    - text: "About Walmart Global Tech:"
+                    - text: Imagine working in an environment where one line of code can make life easier for hundreds of millions of people. That's what we do at Walmart Global Tech. We're a team of software engineers, data scientists, cybersecurity experts and service professionals within the world's leading retailer who make an epic impact and are at the forefront of the next retail disruption. People are why we innovate, and people power our innovations. We are people-led and tech-empowered. We train our team in the skillsets of the future and bring in experts like you to help us grow. We have roles for those chasing their first opportunity as well as those looking for the opportunity that will define their career. Here, you can kickstart a great career in tech, gain new skills and experience for virtually every industry, or leverage your expertise to innovate at scale, impact millions and reimagine the future of retail.
+                    - text: Walmart’s culture is a competitive advantage, and it’s fostered by being together. Working together in person allows us to collaborate, align quickly and innovate with greater speed. We use our campuses to create purposeful connections rooted in deepening understanding and investing in the development of our associates.
+                    - text: "Benefits:"
+                    - text: Beyond our great compensation package, you can receive incentive awards for your performance. Other great perks include 401(k) match, stock purchase plan, paid maternity and parental leave, PTO, multiple health plans, and much more.
+                    - text: "Equal Opportunity Employer:"
+                    - text: Walmart, Inc. is an Equal Opportunity Employer - by choice. We believe we are best equipped to help our associates, customers, and the communities we serve live better when we really know them. That means understanding, respecting, and valuing unique styles, experiences, identities, ideas and opinions while being welcoming of all people.
+                    - text: The above information has been designed to indicate the general nature and level of work performed in the role. It is not designed to contain or be interpreted as a comprehensive inventory of all responsibilities and qualifications required of employees assigned to this job. The full job description can be made available as part of the hiring process.
+                    - text: "#LI-onsite"
+                    - text: At Walmart, we offer competitive pay as well as performance-based bonus awards and other great benefits for a happier mind, body, and wallet. Health benefits include medical, vision and dental coverage. Financial benefits include 401(k), stock purchase and company-paid life insurance. Paid time off benefits include PTO (including sick leave), parental leave, family care leave, bereavement, jury duty, and voting. Other benefits include short-term and long-term disability, company discounts, Military Leave Pay, adoption and surrogacy expense reimbursement, and more. You will also receive PTO and/or PPTO that can be used for vacation, sick leave, holidays, or other purposes. The amount you receive depends on your job classification and length of employment. It will meet or exceed the requirements of paid sick leave laws, where applicable. For information about PTO, see
+                    - link "https://one.walmart.com/notices" [ref=e266] [cursor=pointer]:
+                      - /url: https://one.walmart.com/notices
+                    - text: . Live Better U is a Walmart-paid education benefit program for full-time and part-time associates in Walmart and Sam's Club facilities. Programs range from high school completion to bachelor's degrees, including English Language Learning and short-form certificates. Tuition, books, and fees are completely paid for by Walmart.
+                    - text: Eligibility requirements apply to some benefits and may depend on your job classification and length of employment. Benefits are subject to change and may be subject to a specific plan or program terms.
+                    - text: For information about benefits and eligibility, see
+                    - link "One.Walmart" [ref=e267] [cursor=pointer]:
+                      - /url: https://one.walmart.com/
+                    - text: .
+                    - text: "The annual salary range for this position is $117,000.00 - $234,000.00 Additional compensation includes annual or quarterly performance bonuses. Additional compensation for certain positions may also include :"
+                    - text: "- Stock"
+                    - paragraph [ref=e268]: ㅤ
+                    - paragraph
+                    - paragraph [ref=e269]: ㅤ
+                    - paragraph [ref=e270]: ㅤ
+                    - paragraph [ref=e271]: ㅤ
+                    - paragraph
+                    - paragraph
+                    - paragraph [ref=e272]: ‎
+                    - heading [level=2]
+                    - heading "Minimum Qualifications..." [level=2] [ref=e273]:
+                      - generic [ref=e317]: Minimum Qualifications...
+                    - paragraph [ref=e318]:
+                      - generic [ref=e363]: Outlined below are the required minimum qualifications for this position. If none are listed, there are no minimum qualifications.
+                    - paragraph
+                    - text: "Option 1: Bachelor's degree in computer science, computer engineering, computer information systems, software engineering, or related area and 3 years’ experience in software engineering or related area."
+                    - text: "Option 2: 5 years’ experience in software engineering or related area."
+                    - paragraph
+                    - paragraph
+                    - paragraph
+                    - paragraph
+                    - heading [level=2]
+                    - heading "Preferred Qualifications..." [level=2] [ref=e364]:
+                      - generic [ref=e408]: Preferred Qualifications...
+                    - paragraph [ref=e409]:
+                      - generic [ref=e453]: Outlined below are the optional preferred qualifications for this position. If none are listed, there are no preferred qualifications.
+                    - paragraph
+                    - text: Master’s degree in Computer Science, Computer Engineering, Computer Information Systems, Software Engineering, or related area and 1 year's experience in software engineering or related area., We value candidates with a background in creating inclusive digital experiences, demonstrating knowledge in implementing Web Content Accessibility Guidelines (WCAG) 2.2 AA standards, assistive technologies, and integrating digital accessibility seamlessly. The ideal candidate would have knowledge of accessibility best practices and join us as we continue to create accessible products and services following Walmart’s accessibility standards and guidelines for supporting an inclusive culture.
+                    - paragraph
+                    - paragraph
+                    - paragraph
+                    - paragraph
+                    - paragraph
+                    - paragraph
+                    - heading [level=2]
+                    - heading "Primary Location..." [level=2] [ref=e454]:
+                      - generic [ref=e498]: Primary Location...
+                    - paragraph
+                    - text: 1375 Crossman Ave, Sunnyvale, CA 94089-1114, United States of America
+                    - paragraph
+                    - paragraph
+                    - text: Walmart and its subsidiaries are committed to maintaining a drug-free workplace and has a no tolerance policy regarding the use of illegal drugs and alcohol on the job. This policy applies to all employees and aims to create a safe and productive work environment.
+                - generic [ref=e501]: Walmart is committed to maintaining a drug-free workplace and has a no tolerance policy regarding the use of illegal drugs and alcohol on the job. This policy applies to all employees and aims to create a safe and productive work environment.
+              - generic [ref=e502]:
+                - generic [ref=e505]:
+                  - heading "Benefits you’ll enjoy" [level=2] [ref=e506]
+                  - generic [ref=e507]:
+                    - generic "Discount Card - Get 10% off benefit card" [ref=e509]:
+                      - img "Discount Card" [ref=e511]
+                      - generic [ref=e512]: Discount Card
+                      - generic [ref=e513]: Get 10% off
+                      - generic [ref=e514]: Walmart associates are eligible for a 10% discount card on most regular-priced items and fresh produce in-store and on select items at Walmart.com. Eligible after 90 days of employment.
+                    - generic "Live Better U - 100% covered benefit card" [ref=e516]:
+                      - img "Live Better U" [ref=e518]
+                      - generic [ref=e519]: Live Better U
+                      - generic [ref=e520]: 100% covered
+                      - generic [ref=e521]: Earn a degree or in-demand skills certificates with no debt- Walmart covers 100% of tuition and books. Live Better U offers 60+ programs for Associates to pursue their dreams.
+                    - generic "Walmart Academy - Grow your skills benefit card" [ref=e523]:
+                      - img "Walmart Academy" [ref=e525]
+                      - generic [ref=e526]: Walmart Academy
+                      - generic [ref=e527]: Grow your skills
+                      - generic [ref=e528]: Ready to grow your career? Walmart Academy offers job-specific retail training and leadership courses to help Associates reach their career goals.
+                  - generic [ref=e529]:
+                    - generic [ref=e531]:
+                      - generic [ref=e532]:
+                        - img "BenefitsSecondaryPoint-Image" [ref=e534]
+                        - generic [ref=e535]:
+                          - generic [ref=e536]: Financial perks
+                          - generic [ref=e537]: Enjoy 401(k) matching and stock purchase plans.
+                      - generic [ref=e538]:
+                        - img "BenefitsSecondaryPoint-Image" [ref=e540]
+                        - generic [ref=e541]:
+                          - generic [ref=e542]: Paid time off
+                          - generic [ref=e543]: Take a break as needed for vacation, sick leave, holidays, parental leave, and more
+                      - generic [ref=e544]:
+                        - img "BenefitsSecondaryPoint-Image" [ref=e546]
+                        - generic [ref=e547]:
+                          - generic [ref=e548]: Comprehensive health benefits
+                          - generic [ref=e549]: Medical, dental, vision, and wellness programs for you and your family
+                      - generic [ref=e550]:
+                        - img "BenefitsSecondaryPoint-Image" [ref=e552]
+                        - generic [ref=e553]:
+                          - generic [ref=e554]: Wellbeing programs
+                          - generic [ref=e555]: Access mental health resources and assistance programs for life’s challenges
+                      - generic [ref=e556]:
+                        - img "BenefitsSecondaryPoint-Image" [ref=e558]
+                        - generic [ref=e559]:
+                          - generic [ref=e560]: Career growth opportunities
+                          - generic [ref=e561]: Training, leadership programs, and clear paths to advance.
+                    - button "Learn more" [ref=e564] [cursor=pointer]:
+                      - generic [ref=e565]: Learn more
+                - generic [ref=e568]: Life at Walmart
+                - generic [ref=e571]: Imagine a workplace surrounded by innovation. At Walmart’s new Home Office in Bentonville, Arkansas, we’re redefining what it means to work at a global leader.
+                - generic [ref=e575]:
+                  - generic [ref=e578]: Set on 350 acres of thoughtfully revitalized land, our new campus seamlessly integrates the charm of Northwest Arkansas with cutting edge design and technology. From biking trails and outdoor courtyards to flexible, tech-enabled workspaces, every detail reflects our commitment to sustainability, connection, and culture.
+                  - img "JobDetailsLifeAtSubHeadingWithContent-image-rpane" [ref=e580]
+                - generic [ref=e584]:
+                  - generic [ref=e587]:
+                    - text: With amenities like on-site childcare at our Little Squiggles Children’s Enrichment Center, the Walton Family Whole Health & Fitness Center, and a vibrant food hall featuring local and international favorites, we’re creating a space where work-life balance isn’t just a goal—it’s a reality.
+                    - text: Beyond the campus, Bentonville offers a dynamic lifestyle with world-class dining, art at the Crystal Bridges Museum, and countless outdoor activities.
+                  - img "JobDetailsLifeAtSubHeadingWithContent-image-rpane" [ref=e589]
+                - generic [ref=e594]: Whether you’re exploring High South cuisine, enjoying live performances at our new amphitheater, or cycling the Razorback Greenway, you’ll experience the perfect blend of small-town charm and big-city amenities.
+                - generic [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e599]: Join us at Walmart and grow your career alongside a community that feels like home.
+                    - generic [ref=e601]: This isn’t just a workplace—it’s a destination for leaders eager to make a difference.
+                  - generic [ref=e602]:
+                    - img "Alt" [ref=e604]
+                    - img "Alt" [ref=e606]
+                    - img "Alt" [ref=e608]
+                    - img "Alt" [ref=e610]
+        - generic [ref=e619]:
+          - generic [ref=e621]:
+            - generic [ref=e622]:
+              - heading "Careers" [level=2] [ref=e623]
+              - list [ref=e624]:
+                - listitem [ref=e625]:
+                  - link "Stores and Clubs" [ref=e627] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/stores-and-clubs
+                - listitem [ref=e629]:
+                  - link "Supply Chain and Transportation" [ref=e631] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/supply-chain-and-transportation
+                - listitem [ref=e633]:
+                  - link "Healthcare" [ref=e635] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/healthcare
+                - listitem [ref=e637]:
+                  - link "Technology" [ref=e639] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/technology
+                - listitem [ref=e641]:
+                  - link "Corporate" [ref=e643] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/corporate
+            - generic [ref=e645]:
+              - heading "Brands" [level=2] [ref=e646]
+              - list [ref=e647]:
+                - listitem [ref=e648]:
+                  - link "Walmart" [ref=e650] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home
+                - listitem [ref=e652]:
+                  - link "Sam's Club" [ref=e654] [cursor=pointer]:
+                    - /url: /content/careers/us/en/sams-home
+                - listitem [ref=e656]:
+                  - link "VIZIO" [ref=e658] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/vizio
+            - generic [ref=e660]:
+              - heading "Resources" [level=2] [ref=e661]
+              - list [ref=e662]:
+                - listitem [ref=e663]:
+                  - link "How we hire" [ref=e665] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/resources/hiring-process
+                - listitem [ref=e667]:
+                  - link "Office Locations" [ref=e669] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/resources/location
+            - generic [ref=e671]:
+              - heading "About" [level=2] [ref=e672]
+              - list [ref=e673]:
+                - listitem [ref=e674]:
+                  - generic [ref=e675]:
+                    - link "Benefits" [ref=e676] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/working-at-walmart
+                    - link "Benefits" [ref=e678] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/working-at-walmart
+                      - img [ref=e679]
+                - listitem [ref=e682]:
+                  - generic [ref=e683]:
+                    - link "Belonging" [ref=e684] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/belonging
+                    - link "Belonging" [ref=e686] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/belonging
+                      - img [ref=e687]
+                - listitem [ref=e690]:
+                  - generic [ref=e691]:
+                    - link "Sustainability" [ref=e692] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/sustainability
+                    - link "Sustainability" [ref=e694] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/sustainability
+                      - img [ref=e695]
+                - listitem [ref=e698]:
+                  - generic [ref=e699]:
+                    - link "News" [ref=e700] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/content/corporate/en_us/news.html
+                    - link "News" [ref=e702] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/content/corporate/en_us/news.html
+                      - img [ref=e703]
+                - listitem [ref=e706]:
+                  - generic [ref=e707]:
+                    - link "History" [ref=e708] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/walmart-museum
+                    - link "History" [ref=e710] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/walmart-museum
+                      - img [ref=e711]
+          - generic [ref=e714]:
+            - link "social" [ref=e715] [cursor=pointer]:
+              - /url: https://www.facebook.com/WalmartWorld
+              - img [ref=e716]
+            - link "social" [ref=e717] [cursor=pointer]:
+              - /url: https://www.glassdoor.com/Overview/Working-at-Walmart-EI_IE715.11,18.htm
+              - img [ref=e718]
+            - link "social" [ref=e719] [cursor=pointer]:
+              - /url: https://www.instagram.com/walmartworld/
+              - img [ref=e720]
+            - link "social" [ref=e721] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/walmart/
+              - img [ref=e722]
+            - link "social" [ref=e723] [cursor=pointer]:
+              - /url: https://twitter.com/WalmartWorld
+              - img [ref=e724]
+            - link "social" [ref=e725] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PL14ED977FFA38F193
+              - img [ref=e726]
+          - generic [ref=e727]:
+            - generic [ref=e728]:
+              - generic [ref=e729]:
+                - text: Walmart, Inc. is an Equal Opportunity Employer. We believe we are best equipped to help our associates, customers, and the communities we serve live better when we really know them. That means understanding, respecting, and valuing unique styles, experiences, identities, abilities, ideas and opinions- while welcoming all people. Walmart Inc. participates in E-verify. Learn more about
+                - link "applicant rights under Federal Employment Laws." [ref=e730] [cursor=pointer]:
+                  - /url: https://cms.careers.walmart.com/content/dam/careers/federal-employment-laws/applicant-rights-under-federal-employment-laws.pdf
+                  - generic [ref=e731]: applicant rights under Federal Employment Laws.
+              - generic [ref=e733]: Eligibility for benefits depends on your job classification, and benefits are subject to specific plan or program terms. For more information about your benefits options, please see the Associate Benefits Book at One.Walmart.com/BenefitsBook. For programs not covered in the Associate Benefits Book, you’ll find more information on One.Walmart.com, or you can call People Services at 800-421-1362 or chat at One.Walmart.com/BenefitsChat.
+            - generic [ref=e735]:
+              - generic [ref=e736]: ©2026 Walmart Inc.
+              - generic [ref=e737]:
+                - link "Walmart.com" [ref=e738] [cursor=pointer]:
+                  - /url: https://www.walmart.com/
+                - link "Terms & Conditions" [ref=e739] [cursor=pointer]:
+                  - /url: /content/careers/us/en/home/resources/terms-and-conditions
+                - link "Privacy Policy" [ref=e740] [cursor=pointer]:
+                  - /url: https://corporate.walmart.com/privacy-security
+                - link "Notice At Collection" [ref=e741] [cursor=pointer]:
+                  - /url: https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected
+  - alert [ref=e744]
