@@ -484,4 +484,19 @@ Format: `- [ ] {url} | {company} | {title}`
 - [ ] https://jobs.lever.co/palantir/89a77547-8b74-45b2-8590-f04b16e19a59 | Palantir | Senior Software Engineer, Network Infrastructure
 - [ ] https://jobs.lever.co/palantir/b80d45be-7fe8-4a11-b159-65551320c61f | Palantir | Senior Software Engineer, Substrate
 
+- [ ] https://job-boards.greenhouse.io/temporaltechnologies/jobs/5035634007 | Temporal | Staff Software Engineer, Replication Foundations
+- [ ] https://job-boards.greenhouse.io/temporaltechnologies/jobs/4766700007 | Temporal | Staff Software Engineer, Cloud Capacity
+- [ ] https://job-boards.greenhouse.io/temporaltechnologies/jobs/4691532007 | Temporal | Staff Software Engineer, Traffic
+- [ ] https://job-boards.greenhouse.io/temporaltechnologies/jobs/5107194007 | Temporal | Staff Software Engineer, Infrastructure Foundations
+- [ ] https://job-boards.greenhouse.io/temporaltechnologies/jobs/4672714007 | Temporal | Staff Software Engineer, Cloud Data Storage
+- [ ] https://job-boards.greenhouse.io/temporaltechnologies/jobs/4163457007 | Temporal | Staff Software Engineer - Open Source Server
+- [ ] https://job-boards.greenhouse.io/temporaltechnologies/jobs/4853421007 | Temporal | Staff Software Engineer - AI SDK
+- [ ] https://job-boards.greenhouse.io/narvar/jobs/4339623004 | Narvar | Senior Software Engineer II, Distributed Systems
+- [ ] https://job-boards.greenhouse.io/narvar/jobs/7415441 | Narvar | Staff Software Engineer, Distributed Systems
+- [ ] https://job-boards.greenhouse.io/growtherapy/jobs/4632660005 | Grow Therapy | Staff Engineer - Platform
+- [ ] https://job-boards.greenhouse.io/natera/jobs/5718942004 | Natera | Principal AI/ML Platform Engineer
+- [ ] https://jobs.ashbyhq.com/vultr/ca78220f-9129-4794-b01c-64f4935de455 | Vultr | Staff AI/ML Infrastructure Engineer
+- [ ] https://job-boards.greenhouse.io/dbtlabsinc/jobs/4604509005 | dbt Labs | Senior Platform Software Engineer, Transport
+- [ ] https://jobs.ashbyhq.com/rula/b1748497-22b3-4dd4-82c3-72e859cb6ba1 | Rula | Engineering Manager (Remote)
+
 ## Procesadas
