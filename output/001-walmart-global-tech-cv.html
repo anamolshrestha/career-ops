@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anamol Shrestha -- CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 32px 40px;
+    margin: 0;
+  }
+
+  .page { width: 100%; max-width: 816px; margin: 0 auto; padding: 2px 0; }
+
+  .header { margin-bottom: 20px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 18px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+
+  a { white-space: nowrap; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 14px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 12.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+  .job-location { font-size: 10px; color: #888; }
+
+  .job ul { padding-left: 18px; margin-top: 6px; }
+
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+
+  .edu-item { margin-bottom: 8px; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  .skills-grid { display: flex; flex-direction: column; gap: 5px; }
+
+  .skill-row { font-size: 10.5px; color: #444; line-height: 1.5; }
+  .skill-category { font-weight: 600; color: #333; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 0; }
+    .page { padding: 0; }
+  }
+
+  .avoid-break, .job, .edu-item { break-inside: avoid; page-break-inside: avoid; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Anamol Shrestha</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>(940) 735-0096</span>
+      <span class="separator">|</span>
+      <span>anamol.stha@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/anamol-s-0b9065168/">linkedin.com/in/anamol-s-0b9065168</a>
+      <span class="separator">|</span>
+      <span>Fort Worth, TX &mdash; Relocating to California</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      Principal Software Engineer with 8+ years building fault-tolerant, high-throughput distributed systems in fintech and enterprise environments. Designed Kafka-driven pipelines at SEI Investments processing $2B+ in daily trade volume with exactly-once delivery semantics -- the same correctness guarantees catalog and supply-chain systems demand. At Fidelity, engineered a platform SDK and API layer serving 40,000+ users across 20+ engineering teams with 99.9% uptime. At American Airlines, decomposed a monolithic IVR platform into independently deployable microservices handling 5M+ monthly customer interactions. Deep Java and Spring Boot expertise; proven at Kafka-scale throughput, distributed consistency, and zero-downtime production migrations. Relocating to California.
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Java (Expert)</span>
+      <span class="competency-tag">Spring Boot / Spring WebFlux</span>
+      <span class="competency-tag">Kafka &amp; Event Streaming</span>
+      <span class="competency-tag">Distributed Systems</span>
+      <span class="competency-tag">Microservices Architecture</span>
+      <span class="competency-tag">Event-Driven Architecture</span>
+      <span class="competency-tag">AWS / Kubernetes / Terraform</span>
+      <span class="competency-tag">NoSQL Databases</span>
+      <span class="competency-tag">High-Throughput Backend Systems</span>
+      <span class="competency-tag">Zero-Downtime Migrations</span>
+      <span class="competency-tag">Technical Mentorship</span>
+      <span class="competency-tag">CI/CD (Jenkins, GitHub Actions)</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Fidelity Investments</span>
+        <span class="job-period">Aug 2024 &ndash; Present</span>
+      </div>
+      <div class="job-role">Principal Software Engineer &mdash; OpsWorX Platform <span class="job-location">&nbsp;|&nbsp; Westlake, TX</span></div>
+      <ul>
+        <li>Architected Java Spring Boot backend APIs and a platform SDK layer that unified integration standards across 20+ internal and partner engineering teams -- eliminating fragmentation and achieving 99.9% platform uptime in production.</li>
+        <li>Engineered the SDK event management framework using event-driven patterns, reducing cross-application data propagation latency by <strong>40%</strong> and cutting inter-app communication failures by <strong>60%</strong> across 50+ hosted applications.</li>
+        <li>Led zero-downtime migration of 15+ legacy WPF/Prism applications to a modern microservices-based hosting platform, reducing deployment cycle time by <strong>35%</strong>.</li>
+        <li>Standardized REST API integration patterns with Interop.io and internal platform teams, cutting partner team onboarding time by <strong>50%</strong> across 5+ business units.</li>
+        <li>Mentored 5+ engineers through design reviews; established platform-wide coding standards that accelerated feature delivery velocity by <strong>25%</strong>.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">SEI Investments</span>
+        <span class="job-period">Mar 2022 &ndash; Aug 2024</span>
+      </div>
+      <div class="job-role">Sr. Java Developer &mdash; Special Assets Platform <span class="job-location">&nbsp;|&nbsp; Remote</span></div>
+      <ul>
+        <li>Architected a fully event-driven Kafka pipeline orchestrating end-to-end TBA Mortgage-Backed Securities trade lifecycle -- processing <strong>100,000+ trade events daily</strong> across a platform supporting <strong>$2B+ in daily trade volume</strong>.</li>
+        <li>Designed producer/consumer topology with message-key-based deduplication, transactional producers, and custom retry mechanisms -- guaranteeing <strong>exactly-once delivery</strong> with <strong>99.95% reliability</strong> across Kafka and JMS.</li>
+        <li>Reduced settlement latency by <strong>45%</strong> through targeted distributed system optimizations, replacing synchronous flows with async event streams.</li>
+        <li>Built Spring Boot REST APIs integrated with event streams for real-time trade status, supporting 8+ consuming services with <strong>sub-100ms response times</strong> under peak load.</li>
+        <li>Onboarded a net-new TBA MBS asset class end-to-end -- trade creation through settlement -- expanding platform capabilities and unlocking a new revenue stream.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">American Airlines</span>
+        <span class="job-period">Aug 2018 &ndash; Mar 2022</span>
+      </div>
+      <div class="job-role">Software Engineer &mdash; Inbound IVR Platform <span class="job-location">&nbsp;|&nbsp; Fort Worth, TX</span></div>
+      <ul>
+        <li>Maintained and modernized core Java APIs supporting IVR systems handling <strong>5M+ customer interactions monthly</strong> with 99.9% availability across American Airlines' global customer base.</li>
+        <li>Led platform transition from Java monolith to microservices on PCF/AWS -- decomposing 12 tightly coupled services, improving deployment frequency by <strong>4x</strong> and reducing production incidents by <strong>30%</strong>.</li>
+        <li>Delivered the IVR Containment Deeplink Project -- SMS-based self-service achieving <strong>~13% containment rate</strong>, deflecting <strong>600,000+ calls annually</strong> and saving an estimated <strong>$3M+ in operational costs</strong>.</li>
+        <li>Enhanced the Proactive Greeting Service using multithreading and IBM ODM rules, processing <strong>1M+ personalized greetings monthly</strong> with sub-200ms response times.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">USAA</span>
+        <span class="job-period">Jan 2017 &ndash; Aug 2018</span>
+      </div>
+      <div class="job-role">Software Engineer</div>
+      <ul>
+        <li>Built backend Java services for financial products serving the military community; contributed to API design and service reliability in a regulated financial environment.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">MS, Information Technology &mdash; <span class="edu-org">University of Cumberlands</span></span>
+        <span class="edu-year">Dec 2022</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">BS, Computer Science &nbsp;|&nbsp; BS, Mathematics &mdash; <span class="edu-org">University of Louisiana at Monroe</span></span>
+        <span class="edu-year">Apr 2018</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-row"><span class="skill-category">Languages:</span> Java, Python, TypeScript, JavaScript, C#, SQL, Groovy, Shell Script</div>
+      <div class="skill-row"><span class="skill-category">Backend &amp; Frameworks:</span> Spring Boot, Spring WebFlux (reactive), Spring Cloud, Spring Security, Spring Batch, Hibernate, JPA, gRPC, Node.js</div>
+      <div class="skill-row"><span class="skill-category">Messaging &amp; Streaming:</span> Kafka, Kafka Streams, JMS, RabbitMQ, ActiveMQ -- exactly-once, transactional, high-throughput patterns</div>
+      <div class="skill-row"><span class="skill-category">Distributed Systems:</span> Microservices, Event-Driven Architecture, DDD, CQRS, Saga Pattern, REST, GraphQL, High-Concurrency, Low-Latency</div>
+      <div class="skill-row"><span class="skill-category">Databases:</span> Oracle, PostgreSQL, MySQL, MongoDB, DynamoDB, Redis, Memcache, Elasticsearch, Solr</div>
+      <div class="skill-row"><span class="skill-category">Cloud &amp; Infrastructure:</span> AWS (EC2, S3, Lambda, SQS, SNS, RDS), GCP, Azure, Docker, Kubernetes, Helm, Terraform, Istio, PCF</div>
+      <div class="skill-row"><span class="skill-category">CI/CD &amp; Observability:</span> Jenkins, GitHub Actions, Maven, Azure DevOps, ArgoCD, Datadog, Dynatrace, Splunk, ELK Stack, Prometheus, Grafana, SonarQube</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
