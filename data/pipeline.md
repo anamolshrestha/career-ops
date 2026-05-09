@@ -83,7 +83,7 @@ Format: `- [ ] {url} | {company} | {title}`
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5157844008 | Anthropic | Senior Software Engineer, Platform
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5134895008 | Anthropic | Senior Staff Software Engineer, API
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5126080008 | Anthropic | Solutions Architect, National Security
-- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5113224008 | Anthropic | Staff / Senior Software Engineer, AI Reliability
+- [x] #011 | https://job-boards.greenhouse.io/anthropic/jobs/5113224008 | Anthropic | Staff / Senior Software Engineer, AI Reliability | 4.0/5 | ❌
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5107466008 | Anthropic | Staff / Senior Software Engineer, Cloud Inference
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5126702008 | Anthropic | Staff / Senior Software Engineer, Compute Capacity
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/4951696008 | Anthropic | Staff / Senior Software Engineer, Inference
@@ -94,7 +94,7 @@ Format: `- [ ] {url} | {company} | {title}`
 - [x] (skip: London UK only, 2.8/5) | https://job-boards.greenhouse.io/anthropic/jobs/4915842008 | Anthropic | Staff Software Engineer, Systems
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5168482008 | Anthropic | Strategic Account Executive, Canada Financial Services - FSI
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5041290008 | Anthropic | Strategic Account Executive, Investment Banking & Capital Markets
-- [ ] https://job-boards.greenhouse.io/humeai/jobs/5064248008 | Hume AI | Senior Platform Engineer
+- [x] #013 | https://job-boards.greenhouse.io/humeai/jobs/5064248008 | Hume AI | Senior Platform Engineer | 4.0/5 | PDF ❌
 - [ ] https://jobs.ashbyhq.com/lindy/de321403-4e9e-4d91-aa5d-1f84d770a4a6 | Lindy | Staff Software Engineer
 - [ ] https://jobs.ashbyhq.com/sierra/684fe45e-e8ab-40bc-8faa-c291646a48bb | Sierra | Sales Engineering Manager
 - [ ] https://jobs.ashbyhq.com/sierra/1a0a0334-41f8-4c15-9ed8-615336855e5e | Sierra | Engineering Manager, Agent
@@ -184,7 +184,7 @@ Format: `- [ ] {url} | {company} | {title}`
 - [ ] https://jobs.ashbyhq.com/attio/c05a61a4-ae7c-4d93-a920-08d60c7448ad | Attio | Senior Platform Engineer 
 - [ ] https://job-boards.greenhouse.io/arizeai/jobs/5797408004 | Arize AI | AI Solutions Engineer 
 - [ ] https://job-boards.greenhouse.io/arizeai/jobs/5781408004 | Arize AI | AI Solutions Engineer, EMEA
-- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5421310004 | Arize AI | Engineering Manager - Product & Platform
+- [x] #014 | https://job-boards.greenhouse.io/arizeai/jobs/5421310004 | Arize AI | Engineering Manager - Product & Platform | 3.8/5 | PDF ❌
 - [ ] https://job-boards.greenhouse.io/runpod/jobs/5020164008 | RunPod | Engineering Manager - Product & Platform Delivery
 - [ ] https://job-boards.greenhouse.io/runpod/jobs/4142227008 | RunPod | Senior Software Engineer (Cloud) 
 - [ ] https://jobs.ashbyhq.com/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767 | Pinecone | Senior/Staff Software Engineer, Database Team
@@ -347,10 +347,10 @@ Format: `- [ ] {url} | {company} | {title}`
 - [ ] https://jobs.ashbyhq.com/workos/96a03aa5-c2da-4f10-a0d1-951160188f9b | WorkOS | Engineering Manager
 - [ ] https://jobs.ashbyhq.com/workos/26a54ffa-9465-4d13-bc5f-db41a2bbe505 | WorkOS | Infrastructure Engineer
 - [ ] https://jobs.ashbyhq.com/workos/dc23fd7b-ee4c-4e6a-959a-209b2eab8b17 | WorkOS | Solutions Engineer
-- [ ] https://jobs.ashbyhq.com/supabase/894139b0-cc52-4fe4-b84f-ab6660b517d0 | Supabase | Infrastructure Engineer - Observability (APAC)
-- [ ] https://jobs.ashbyhq.com/supabase/a5a5a35a-ff03-4777-bb05-6eaaf5e8a1a6 | Supabase | Strategic Customer Solutions Architect (AMER)
-- [ ] https://jobs.ashbyhq.com/supabase/dc8187e4-c799-48a9-a408-ad8393eec39f | Supabase | Strategic Customer Solutions Architect (APAC)
-- [ ] https://jobs.ashbyhq.com/supabase/64085bde-a5c2-4198-a2e1-d76f5a78f56f | Supabase | Strategic Customer Solutions Architect (EMEA)
+- [x] (skip: APAC timezone required) | https://jobs.ashbyhq.com/supabase/894139b0-cc52-4fe4-b84f-ab6660b517d0 | Supabase | Infrastructure Engineer - Observability (APAC)
+- [x] (skip: customer-facing solutions architect, not IC engineering) | https://jobs.ashbyhq.com/supabase/a5a5a35a-ff03-4777-bb05-6eaaf5e8a1a6 | Supabase | Strategic Customer Solutions Architect (AMER)
+- [x] (skip: APAC + customer-facing) | https://jobs.ashbyhq.com/supabase/dc8187e4-c799-48a9-a408-ad8393eec39f | Supabase | Strategic Customer Solutions Architect (APAC)
+- [x] (skip: EMEA + customer-facing) | https://jobs.ashbyhq.com/supabase/64085bde-a5c2-4198-a2e1-d76f5a78f56f | Supabase | Strategic Customer Solutions Architect (EMEA)
 - [ ] https://job-boards.greenhouse.io/hightouch/jobs/5835944004 | Hightouch | Engineering Manager, Destinations
 - [ ] https://job-boards.greenhouse.io/hightouch/jobs/5775517004 | Hightouch | Engineering Manager, Head of Machine Learning 
 - [ ] https://job-boards.greenhouse.io/hightouch/jobs/5134194004 | Hightouch | Enterprise Solutions Engineer, East
@@ -370,10 +370,10 @@ Format: `- [ ] {url} | {company} | {title}`
 - [ ] https://jobs.lever.co/mistral/042d7b29-279b-48e2-a44b-c7bdc3180dab | Mistral AI | Applied AI, Technical Lead, Forward Deployed AI Engineer - Montreal
 - [ ] https://jobs.lever.co/mistral/add3ec37-a655-4a60-8823-1e871aa1e9b2 | Mistral AI | Engineering Manager
 - [ ] https://jobs.lever.co/mistral/18be2b70-c05d-48e4-82ac-e5cb462c96c0 | Mistral AI | Research Platform Engineer, DevOps
-- [ ] https://jobs.lever.co/spotify/66492688-d5b0-4cf8-b1a4-4a715157edd9 | Spotify | Backend Engineer  - Data Infrastructure
-- [ ] https://jobs.lever.co/spotify/32d6a16a-e0b8-4049-8221-077dc514af48 | Spotify | Backend Engineer - Core Infrastructure
-- [ ] https://jobs.lever.co/spotify/db6450c7-5017-4aa5-8a64-52e39f1ed525 | Spotify | Backend Engineer - Data Platform
-- [ ] https://jobs.lever.co/spotify/f542541d-3427-41fd-b7da-bf272bd8b755 | Spotify | Backend Engineer - Personalization
+- [x] (skip: $125-179K base, well below $200K target) | https://jobs.lever.co/spotify/66492688-d5b0-4cf8-b1a4-4a715157edd9 | Spotify | Backend Engineer  - Data Infrastructure
+- [x] (skip: Spotify engineer comp typically $125-180K, below target) | https://jobs.lever.co/spotify/32d6a16a-e0b8-4049-8221-077dc514af48 | Spotify | Backend Engineer - Core Infrastructure
+- [x] (skip: Spotify engineer comp typically $125-180K, below target) | https://jobs.lever.co/spotify/db6450c7-5017-4aa5-8a64-52e39f1ed525 | Spotify | Backend Engineer - Data Platform
+- [x] (skip: Spotify engineer comp below target + personalization domain mismatch) | https://jobs.lever.co/spotify/f542541d-3427-41fd-b7da-bf272bd8b755 | Spotify | Backend Engineer - Personalization
 - [ ] https://jobs.lever.co/spotify/e8ef80ed-633f-45ec-a1fc-a55704241f64 | Spotify | Backend Engineer - Platform
 - [ ] https://jobs.lever.co/spotify/31bf7d45-9448-413c-8f61-b69a8f636f82 | Spotify | Backend Engineer - Platform Developer Experience
 - [ ] https://jobs.lever.co/spotify/58860a10-4a0d-4a21-a495-1f3605b300c1 | Spotify | Backend Engineer - User Platform
@@ -461,7 +461,7 @@ Format: `- [ ] {url} | {company} | {title}`
 - [ ] https://jobs.lever.co/palantir/8fcae765-de9a-4990-ba84-e65b524d683b | Palantir | Forward Deployed Infrastructure Engineer - US Government
 - [ ] https://jobs.lever.co/palantir/55005ee7-4e06-4520-b569-f6e8f26745cb | Palantir | Senior Software Engineer, Network Infrastructure
 - [ ] https://jobs.lever.co/palantir/68d690cf-fc8a-4755-9b69-abe13f93d262 | Palantir | Senior Software Engineer, Substrate
-- [ ] https://jobs.ashbyhq.com/perplexity/60deb376-51b5-46c6-9e17-55377a5ef34e | Perplexity | Member of Technical Staff (AI Infrastructure Engineer)
+- [x] (skip: London hybrid + ML infra/Slurm/C++/Python stack — two hard blockers, 2.0/5) | https://jobs.ashbyhq.com/perplexity/60deb376-51b5-46c6-9e17-55377a5ef34e | Perplexity | Member of Technical Staff (AI Infrastructure Engineer)
 - [ ] https://jobs.lever.co/pigment/8acafa76-06a7-409f-91bc-0a2f0a186b7d | Pigment | Engineering Manager
 - [ ] https://jobs.lever.co/spotify/ed3ee1fc-5a6d-4557-a62c-c5ba18ee849d | Spotify | Backend Engineer - Platform Developer Experience
 - [ ] https://jobs.lever.co/spotify/ee5064af-0116-4ef2-994a-cb8fed580290 | Spotify | Backend Engineer, Music
@@ -483,5 +483,331 @@ Format: `- [ ] {url} | {company} | {title}`
 - [ ] https://jobs.lever.co/palantir/b57f08e9-546c-4b9b-8d21-db0ebbc11363 | Palantir | Forward Deployed Infrastructure Engineer - US Government
 - [ ] https://jobs.lever.co/palantir/89a77547-8b74-45b2-8590-f04b16e19a59 | Palantir | Senior Software Engineer, Network Infrastructure
 - [ ] https://jobs.lever.co/palantir/b80d45be-7fe8-4a11-b159-65551320c61f | Palantir | Senior Software Engineer, Substrate
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5139038008 | Anthropic | Staff Engineer, Datacenter Server Lifecycle
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5203868008 | Anthropic | Staff Software Engineer, Node Infra
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7818586 | Intercom | Engineering Manager, AI Models Infrastructure
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4823679101 | Speechmatics | Solutions Engineer
+- [ ] https://jobs.lever.co/palantir/c38bb622-6f8e-43a1-8ae7-32291da328a8 | Palantir | Senior Software Engineer, Substrate
+- [ ] https://jobs.ashbyhq.com/pinecone/499ce77a-7ed0-462e-9efb-3e7dad6cd5ad | Pinecone | Senior/Staff Software Engineer, Search & Retrieval Infrastructure
+- [ ] https://jobs.ashbyhq.com/elevenlabs/8a88f764-27f5-46d7-8ce0-0ba15401efb1 | ElevenLabs | Enterprise Solutions Engineer - Brazil
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7712675003?gh_jid=7712675003 | Celonis | Senior Software Engineer - Provisioning and Licensing
+- [ ] https://traderepublic.com/en-de/about?jobId=7718242003&gh_jid=7718242003 | Trade Republic | Backend Engineer (Haskell)
+- [ ] https://traderepublic.com/en-de/about?jobId=7714721003&gh_jid=7714721003 | Trade Republic | Graduate Backend Engineering Programme - Paris 
+- [ ] https://careers.hellofresh.com/global/en/job/7845008?gh_jid=7845008 | HelloFresh | Staff Backend Engineer, Customer Value Optimisation
+- [ ] https://www.scandit.com/careers/job-description/?gh_jid=7552618 | Scandit | Engineering Manager, Platform 
+- [x] #009 | https://job-boards.greenhouse.io/hightouch/jobs/5983863004 | Hightouch | Software Engineer, Streaming Systems | 3.8/5 | ❌
+- [ ] https://jobs.ashbyhq.com/supabase/847a7bd7-6b75-444a-aeda-d0b28a11c764 | Supabase | Platform Engineer - Multicloud
+- [ ] https://jobs.lever.co/spotify/40ac451e-2886-4f22-96a0-be69aef6c6f0 | Spotify | Engineering Manager - Content Platform
+- [ ] https://jobs.lever.co/spotify/0b042afc-7dfb-4efe-bf96-123b4c3c447f | Spotify | Engineering Manager - Subscriptions
+- [ ] https://jobs.lever.co/spotify/d4de4dc1-7e20-4e15-965e-4c0401e47c5a | Spotify | Engineering Manager II - Creator and Publisher Analytics
+- [ ] https://jobs.lever.co/spotify/7d3bdd39-0edd-41f2-aef4-f1e9ef92b364 | Spotify | Machine Learning Engineering Manager - Music
+- [x] (skip: C++17/C++20 as primary language required — Anamol is Java/Spring Boot, 2.5/5) | https://job-boards.greenhouse.io/redpandadata/jobs/4652843005 | Redpanda Data | Senior Software Engineer, Core Enterprise
+- [ ] https://job-boards.greenhouse.io/redpandadata/jobs/4684131005 | Redpanda Data | Senior Software Engineer - Observability
+- [ ] https://job-boards.greenhouse.io/redpandadata/jobs/4685916005 | Redpanda Data | Solutions Engineer
+- [ ] https://imply.io/positions?gh_jid=6623406003 | Imply | Senior Software Engineer (Remote)
+- [x] #012 | https://imply.io/positions?gh_jid=7532528003 | Imply | Staff Software Engineer (Remote) | 4.0/5 | ❌ (verify citizenship first)
+- [x] (skip: NYC 3d/wk + Rust primary stack — two hard blockers, 2.5/5) | https://job-boards.greenhouse.io/materialize/jobs/5550315004 | Materialize | Senior / Staff Software Engineer (Database)
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8393583002?gh_jid=8393583002 | Brex | Engineering Manager, AI — Brex Assistant
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8367549002?gh_jid=8367549002 | Brex | Engineering Manager, GTM Engineering 
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8461598002?gh_jid=8461598002 | Brex | Engineering Manager, Onboarding
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8339005002?gh_jid=8339005002 | Brex | Engineering Manager, Salesforce
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8299937002?gh_jid=8299937002 | Brex | Senior Engineering Manager, Acquisition
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8330492002?gh_jid=8330492002 | Brex | Senior Engineering Manager, Activation
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8442498002?gh_jid=8442498002 | Brex | Senior Software Engineer, AI - Simulation
+- [x] (skip: SF 3d/week + frontend role) | https://www.brex.com/careers/8501052002?gh_jid=8501052002 | Brex | Senior Software Engineer, Frontend
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8472634002?gh_jid=8472634002 | Brex | Senior Software Engineer, Full Stack
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8465003002?gh_jid=8465003002 | Brex | Senior Software Engineer, Product 
+- [x] (skip: SF office 3d/week required) | https://www.brex.com/careers/8430182002?gh_jid=8430182002 | Brex | Senior Software Engineer, Product Data Platform
+- [ ] https://www.brex.com/careers/8522011002?gh_jid=8522011002 | Brex | Senior Software Engineer, Release Infra 
+- [ ] https://jobs.ashbyhq.com/ramp/1540a41f-d88f-4c89-9b08-5b9fade1ee81 | Ramp | Senior Software Engineer | GTM Platform, Frontend
+- [ ] https://jobs.ashbyhq.com/ramp/7bfa613e-151c-469b-9973-c89ee3d14838 | Ramp | Backend Engineer, Ops
+- [x] (skip: Toronto/Vancouver Canada only — US authorization asked on form, CAD comp ~$150-190K USD, 2.5/5) | https://job-boards.greenhouse.io/marqeta/jobs/7779317 | Marqeta | Principal Software Engineer
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7723772 | Marqeta | Senior Manager, Platform Engineering
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7543849003 | Affirm | Capital Markets Manager
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7621292003 | Affirm | IT Engineering Manager (Client Platform Engineering) 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7615048003 | Affirm | Senior Software Engineer, Backend (Affirm Card)
+- [x] [SKIP] https://job-boards.greenhouse.io/affirm/jobs/7511995003 | Affirm | Senior Software Engineer, Backend (Cloud Compute) | Remote Poland - not US
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/6642236003 | Affirm | Senior Software Engineer, Backend (Comms Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7703209003 | Affirm | Senior Software Engineer, Backend (Continuous Delivery)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7491437003 | Affirm | Senior Software Engineer, Backend (Growth Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7636414003 | Affirm | Senior Software Engineer, Backend (Merchant Advocacy)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7651525003 | Affirm | Senior Software Engineer, Backend (Merchant Data Platform EU)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7471141003 | Affirm | Senior Software Engineer, Backend (Merchant Interfaces)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7708921003 | Affirm | Senior Software Engineer, Backend (Mesh Traffic)
+- [x] (skip: applying to Staff variant #8 instead — same team, Senior title would be a step down, Python preferred not Java, $169-219K vs $200-250K) | https://job-boards.greenhouse.io/affirm/jobs/7638235003 | Affirm | Senior Software Engineer, Backend (Streaming Infrastructure)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7687160003 | Affirm | Senior Software Engineer, Backend (Trust Infrastructure)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7663436003 | Affirm | Senior Software Engineer, Fullstack (Consumer Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7574924003 | Affirm | Senior Software Engineer, Fullstack (Open Banking) 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7624374003 | Affirm | Senior Software Engineer, Full-Stack (Trust & Safety)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7686804003 | Affirm | Senior Software Engineer, Full Stack (Zero to One Labs)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/6922636003 | Affirm | Senior Software engineer (Furnishing Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7696276003 | Affirm | Senior Software Engineer, Machine Learning (Fraud ML)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7710976003 | Affirm | Senior Staff Software Engineer, Consumer Engineering (Web Infra)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7692390003 | Affirm | Software Engineering Manager (Servicing Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7692388003 | Affirm | Software Engineering Manager( Servicing Platform Engineering)
+- [x] [SKIP] https://job-boards.greenhouse.io/affirm/jobs/7609694003 | Affirm | Staff Software Engineer | Remote Spain - not US
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7637823003 | Affirm | Staff Software Engineer, Backend (Deal reporting) 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7637825003 | Affirm | Staff Software Engineer, Backend (Deal Reporting)
+- [x] [SKIP] https://job-boards.greenhouse.io/affirm/jobs/7581666003 | Affirm | Staff Software Engineer, Backend (Growth Platform) | Remote Canada - not US
+- [x] #008 | https://job-boards.greenhouse.io/affirm/jobs/7000578003 | Affirm | Staff Software Engineer, Backend (Streaming) | 4.5/5 | ❌
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7685428003 | Affirm | Staff Software Engineer, Full-Stack (Account Management)
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7813069?t=gh_src=&gh_jid=7813069 | Robinhood | Engineering Manager
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7542965?t=gh_src=&gh_jid=7542965 | Robinhood | Engineering Manager, Agent Experience
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7603848?t=gh_src=&gh_jid=7603848 | Robinhood | Engineering Manager, Capacity and Efficiency
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7542975?t=gh_src=&gh_jid=7542975 | Robinhood | Engineering Manager, Derivatives
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7512231?t=gh_src=&gh_jid=7512231 | Robinhood | Engineering Manager, Financial Crimes 
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7489328?t=gh_src=&gh_jid=7489328 | Robinhood | Engineering Manager, Legend
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7684757?t=gh_src=&gh_jid=7684757 | Robinhood | Engineering Manager, Observability
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7489246?t=gh_src=&gh_jid=7489246 | Robinhood | Engineering Manager, Strategies & Cortex
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7117648?t=gh_src=&gh_jid=7117648 | Robinhood | Engineering Manager, Toronto
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7844218?t=gh_src=&gh_jid=7844218 | Robinhood | Senior Engineering Manager, AI
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7473367?t=gh_src=&gh_jid=7473367 | Robinhood | Senior Engineering Manager, Application and Product Security
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7812048?t=gh_src=&gh_jid=7812048 | Robinhood | Senior Product Designer, Trading AI
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7489731?t=gh_src=&gh_jid=7489731 | Robinhood | Senior Software Engineer, Agentic
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7782697?t=gh_src=&gh_jid=7782697 | Robinhood | Senior Software Engineer, AI Infrastructure
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7489675?t=gh_src=&gh_jid=7489675 | Robinhood | Senior Software Engineer, Capacity & Efficiency 
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&gh_jid=7648454 | Robinhood | Senior Software Engineer, Cloud Integration
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7473701?t=gh_src=&gh_jid=7473701 | Robinhood | Senior Software Engineer, Core Exchange
+- [ ] https://boards.greenhouse.io/robinhood/jobs/4738660?t=gh_src=&gh_jid=4738660 | Robinhood | Senior Software Engineer, Data Engineering
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7739375?t=gh_src=&gh_jid=7739375 | Robinhood | Senior Software Engineer, Derivatives Team
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7838644?t=gh_src=&gh_jid=7838644 | Robinhood | Senior Software Engineer - Robinhood Command Center
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7729019?t=gh_src=&gh_jid=7729019 | Robinhood | Senior Software Engineer, Storage Platform
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7805145?t=gh_src=&gh_jid=7805145 | Robinhood | Senior Software Engineer, Streaming Platform
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7729014?t=gh_src=&gh_jid=7729014 | Robinhood | Senior Staff Software Engineer, Data Platform
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7489553?t=gh_src=&gh_jid=7489553 | Robinhood | Software Engineering Manager
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7489695?t=gh_src=&gh_jid=7489695 | Robinhood | Software Engineering Manager, Growth
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7644973?t=gh_src=&gh_jid=7644973 | Robinhood | Staff Software Engineer, Compute
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7716679?t=gh_src=&gh_jid=7716679 | Robinhood | Staff Software Engineer, Core Exchange
+- [x] (skip: Bellevue WA office required 3d/wk — not compatible with Fort Worth TX, 3.2/5) | https://boards.greenhouse.io/robinhood/jobs/7489755?t=gh_src=&gh_jid=7489755 | Robinhood | Staff Software Engineer, Streaming Infrastructure
+- [x] (skip: SF on-site #LI-Onsite) | https://boards.greenhouse.io/chime/jobs/8477424002?gh_jid=8477424002 | Chime | Engineering Manager, Data Platform
+- [x] (skip: Chicago on-site) | https://boards.greenhouse.io/chime/jobs/8400999002?gh_jid=8400999002 | Chime | Senior Software Engineer (Chicago)
+- [x] (skip: SF on-site #LI-Onsite) | https://boards.greenhouse.io/chime/jobs/8505462002?gh_jid=8505462002 | Chime | Senior Software Engineer, Data Engineering
+- [x] (skip: SF on-site #LI-Onsite) | https://boards.greenhouse.io/chime/jobs/8457140002?gh_jid=8457140002 | Chime | Senior Software Engineer, Data Platform
+- [x] (skip: SF on-site) | https://boards.greenhouse.io/chime/jobs/8322470002?gh_jid=8322470002 | Chime | Senior Software Engineer, Secure Cards
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7554184 | Nubank | Principal Engineer, Mobile Platforms 
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7614351 | Nubank | Principal Software Engineer - Credit Card 
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7768567 | Nubank | Principal Software Engineer - Credit Card Core Platforms
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7317711 | Nubank | Senior Software Engineer
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7788225 | Nubank | Senior Software Engineer – Mexico City, Mexico (Hybrid)
+- [x] (skip: Palo Alto hybrid 2-3x/wk + Flutter mobile stack — two hard blockers) | https://job-boards.greenhouse.io/nubank/jobs/7645958 | Nubank | Senior Staff Engineer, AI Core
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7376992 | Nubank | Senior Staff / Principal Engineer - Digital Ecosystem
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7682088 | Nubank | Senior Staff Software Engineer
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7696539 | Nubank | Senior Staff Software Engineer - Debt Resolution
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7682141 | Nubank | Senior Staff Software Engineer | Investments
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7707100 | Nubank | Staff Software Engineer
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7786395 | Nubank | Staff Software Engineer – Bogotá, Colombia (Hybrid)
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7786375 | Nubank | Staff Software Engineer – Buenos Aires, Argentina (Hybrid)
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7742729 | Nubank | Staff Software Engineer | Credit Cards
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7724202 | Nubank | Staff Software Engineer, Data
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7686613 | Nubank | Staff Software Engineer | Investments
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7735439 | Nubank | Staff Software Engineer | Loyalty 
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7787623 | Nubank | Staff Software Engineer - Mexico
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7769785 | Nubank | Staff Software Engineer | NuPay
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7383059 | Nubank | Technical Lead Product Designer - AI Private Banker
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5796105004 | Grafana Labs |  Backend Engineer | Mimir | Canada | Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5796104004 | Grafana Labs |  Backend Engineer | Mimir | USA | Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5781201004 | Grafana Labs | Manager, Solutions Engineering | West Coast | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5841147004 | Grafana Labs | Partner Solutions Engineer | East Coast | Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5829419004 | Grafana Labs | Senior Backend Engineer | Mimir OSS | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5829416004 | Grafana Labs | Senior Backend Engineer | Mimir OSS | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5829417004 | Grafana Labs | Senior Backend Engineer | Mimir OSS | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5829418004 | Grafana Labs | Senior Backend Engineer | Mimir OSS | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5980430004 | Grafana Labs | Senior Backend Engineer - Observability Ingest - Kubernetes Operator/Helm Chart | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5980409004 | Grafana Labs | Senior Backend Engineer - Observability Ingest - Kubernetes Operator/Helm Chart | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5980433004 | Grafana Labs | Senior Backend Engineer - Observability Ingest - Kubernetes Operator/Helm Chart | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5980411004 | Grafana Labs | Senior Backend Engineer - Observability Ingest - Kubernetes Operator/Helm Chart | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5849302004 | Grafana Labs | Senior Engineering Manager - Corporate Engineering  | Canada (EST) | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5844295004 | Grafana Labs | Senior Engineering Manager - Corporate Engineering | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5844297004 | Grafana Labs | Senior Engineering Manager - Corporate Engineering | Ireland | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5844294004 | Grafana Labs | Senior Engineering Manager - Corporate Engineering | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5844292004 | Grafana Labs | Senior Engineering Manager - Corporate Engineering | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5844296004 | Grafana Labs | Senior Engineering Manager - Corporate Engineering | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5849327004 | Grafana Labs | Senior Engineering Manager - Corporate Engineering  | US (EST) | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813621004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5834342004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Ireland | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813620004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813618004 | Grafana Labs | Senior Engineering Manager - Platform Metal | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5813622004 | Grafana Labs | Senior Engineering Manager - Platform Metal | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5838158004 | Grafana Labs | Senior Solutions Engineer | East Coast | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5697434004 | Grafana Labs | Senior Solutions Engineer | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5734966004 | Grafana Labs | Senior Solutions Engineer | Italy | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5829645004 | Grafana Labs | Senior Solutions Engineer | Mid Atlantic or Southeast | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5837878004 | Grafana Labs | Senior Solutions Engineer | Spain | French Speaker | Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5798765004 | Grafana Labs | Senior Solutions Engineer | Spain | Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5789080004 | Grafana Labs | Senior Solutions Engineer | Sweden | Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5799974004 | Grafana Labs | Senior Solutions Engineer | Switzerland | French Speaker| Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5818461004 | Grafana Labs | Senior Solutions Engineer | Tokyo, Japan | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5837879004 | Grafana Labs | Senior Solutions Engineer | UK | French Speaker| Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5840429004 | Grafana Labs | Senior Solutions Engineer | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5799745004 | Grafana Labs | Staff Backend Engineer - Adaptive Telemetry| Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5801256004 | Grafana Labs | Staff Backend Engineer - Adaptive Telemetry | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5801259004 | Grafana Labs | Staff Backend Engineer - Adaptive Telemetry | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5801260004 | Grafana Labs | Staff Backend Engineer - Adaptive Telemetry | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5801257004 | Grafana Labs | Staff Backend Engineer - Adaptive Telemetry | UK | Remote
+- [x] #010 | https://job-boards.greenhouse.io/grafanalabs/jobs/5799744004 | Grafana Labs | Staff Backend Engineer - Adaptive Telemetry | 3.5/5 | SKIP (Go 5yr screener, Java stack)
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5807088004 | Grafana Labs | Staff Backend Engineer - Databases Pyroscope | Canada | Remote
+- [x] [SKIP] https://job-boards.greenhouse.io/grafanalabs/jobs/5807096004 | Grafana Labs | Staff Backend Engineer - Databases Pyroscope | Go screener - 2yr Go required, Anamol has 0
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5982443004 | Grafana Labs | Staff Backend Engineer - Databases Tempo | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5982444004 | Grafana Labs | Staff Backend Engineer - Databases Tempo | US | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5978590004 | Grafana Labs | Staff Backend Engineer - Session Replay | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5978589004 | Grafana Labs | Staff Backend Engineer - Session Replay | USA | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5976476004 | Grafana Labs | Staff Software Engineer - Data Sources Core Services | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5976475004 | Grafana Labs | Staff Software Engineer - Data Sources Core Services | Ireland | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5976477004 | Grafana Labs | Staff Software Engineer - Data Sources Core Services | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5976478004 | Grafana Labs | Staff Software Engineer - Data Sources Core Services | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5976482004 | Grafana Labs | Staff Software Engineer - Data Sources Core Services | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5825938004 | Grafana Labs | Staff Software Engineer, Developer Advocacy | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5825937004 | Grafana Labs | Staff Software Engineer, Developer Advocacy | US | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5800230004 | Grafana Labs | Staff Software Engineer - Grafana Cloud k6 | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5800213004 | Grafana Labs | Staff Software Engineer - Grafana Cloud k6 | USA | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5811265004 | Grafana Labs | Staff Software Engineer - Grafana Cloud Observability, Kubernetes Monitoring | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809261004 | Grafana Labs | Staff Software Engineer - Grafana Cloud Observability, Kubernetes Monitoring | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809258004 | Grafana Labs | Staff Software Engineer - Grafana Cloud Observability, Kubernetes Monitoring | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809259004 | Grafana Labs | Staff Software Engineer - Grafana Cloud Observability, Kubernetes Monitoring | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5809260004 | Grafana Labs | Staff Software Engineer - Grafana Cloud Observability, Kubernetes Monitoring | United Kingdom | Remote
+- [x] #015 | https://job-boards.greenhouse.io/grafanalabs/jobs/5811262004 | Grafana Labs | Staff Software Engineer - Grafana Cloud Observability, Kubernetes Monitoring | USA - EST only | Remote | 3.5/5 | PDF ❌ | Contact recruiter first re: CST
+- [ ] https://jobs.ashbyhq.com/neon/104a1a8e-fb12-442d-8146-759b75d1e128 | Neon Database | Senior Software Engineer
+
+- [ ] https://job-boards.eu.greenhouse.io/polyai/jobs/4853250101 | PolyAI | Senior Platform Engineer
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5125387008 | Anthropic | Analytics Data Engineering Manager, Product
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5210631008 | Anthropic | Engineering Manager, Marketplace
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5210629008 | Anthropic | Engineering Manager, Passport 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5131038008 | Anthropic | Staff Engineer, Datacenter Server Lifecycle
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5211297008 | Anthropic | Staff Infrastructure Engineer, Cluster Infrastructure
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5168829008 | Anthropic | Staff Software Engineer, Cloud Inference Safeguards
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5211305008 | Anthropic | Staff Software Engineer, Kubernetes Platform
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5211498008 | Anthropic | Staff Software Engineer, Node Infra
+- [ ] https://jobs.ashbyhq.com/elevenlabs/1a9d687d-0030-4732-8160-f1da54844bba | ElevenLabs | Enterprise Solutions Engineer - ANZ
+- [ ] https://jobs.ashbyhq.com/elevenlabs/85b7489f-5b0c-4f21-9c1c-7b76ed904c44 | ElevenLabs | Enterprise Solutions Engineer - Singapore
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7725840 | Intercom | Principal Engineer, Fin AI Agent
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7825825 | Intercom | Senior Engineering Manager, Fin AI Agent
+- [ ] https://jobs.ashbyhq.com/cohere/7a420921-b7dc-4341-a134-6fe209615e86 | Cohere | Engineering Manager, Agentic Platform 
+- [ ] https://jobs.ashbyhq.com/n8n/2c2023f0-cb2d-4c4b-9f03-9278f479a866 | n8n | Engineering Manager, Core Platform | Remote | Europe 
+- [ ] https://jobs.ashbyhq.com/zapier/1767482d-de23-460c-80eb-6d0a3caa72ab | Zapier | Staff Engineer, Backend - Revenue
+- [ ] https://helsing.ai/jobs/4856687101?gh_jid=4856687101 | Helsing | Supporting Tech Lead - Maritime
+- [ ] https://getyourguide.careers/jobs/7286665?gh_jid=7286665 | GetYourGuide | Staff Engineer, Operational Excellence
+- [ ] https://job-boards.greenhouse.io/blackforestlabs/jobs/4132230008 | Black Forest Labs | Member of Technical Staff - ML Infrastructure Engineer
+- [ ] https://careers.hellofresh.com/global/en/job/7894001?gh_jid=7894001 | HelloFresh | Engineering Manager, Conversions Tech (all genders)
+- [ ] https://careers.hellofresh.com/global/en/job/7858597?gh_jid=7858597 | HelloFresh | Senior Backend Engineer, Consumer 
+- [ ] https://careers.hellofresh.com/global/en/job/7884372?gh_jid=7884372 | HelloFresh | Senior Backend Engineer, Food Systems (al genders) 
+- [ ] https://careers.hellofresh.com/global/en/job/7864484?gh_jid=7864484 | HelloFresh | Senior Backend Engineer, Operations (f/m/x)
+- [ ] https://n26.com/en-eu/careers/positions/7656920?gh_jid=7656920 | N26 | Senior Backend Engineer - Customer Risk Lifecycle
+- [ ] https://sumup.com/careers/positions/8518889002?gh_jid=8518889002 | SumUp | Senior Backend Engineer - Global Expansion
+- [ ] https://sumup.com/careers/positions/8364210002?gh_jid=8364210002 | SumUp | Senior Data Platform Engineer
+- [ ] https://jobs.ashbyhq.com/lakera.ai/6a6d1d9b-c4f9-45a1-a0e5-96061ba5a30f | Lakera | Engineering Manager, Guard Foundations (Zürich)
+- [ ] https://jobs.ashbyhq.com/lakera.ai/96b74068-6e27-4e68-875c-14c9b2f0dd5f | Lakera | Engineering Manager, Detectors (Zürich) 
+- [ ] https://jobs.ashbyhq.com/lakera.ai/523d6d1a-0385-496a-ad74-ecd5f64212be | Lakera | Solutions Engineer, Manager (UK)
+- [ ] https://jobs.ashbyhq.com/photoroom/80fc804b-7770-49b5-a665-58aafa8069cb | Photoroom | Senior Software Engineer (FastAPI & Async Python)
+- [ ] https://www.scandit.com/careers/job-description/?gh_jid=7563160 | Scandit | Engineering Manager, Platform 
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8539648002 | Wayve | Principal Software Engineer, Robot Software
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8540064002 | Wayve | Tech Lead / Manager - Trajectory Generation and Controls
+- [ ] https://jobs.ashbyhq.com/synthesia/b1f960fd-f07a-4788-8e5c-8a7c62c77fb2 | Synthesia | Staff Engineer, Machine Learning
+- [ ] https://job-boards.greenhouse.io/hightouch/jobs/5990367004 | Hightouch | Solutions Engineer - EMEA
+- [ ] https://jobs.ashbyhq.com/supabase/bf3628f2-f6e8-414e-a3fd-2f5ff481b60c | Supabase | AWS Tech Lead - Platform Operations
+- [ ] https://jobs.ashbyhq.com/resend/a95832a8-a2ab-4a63-8303-9989f1fc47d6 | Resend | Backend Engineer, Core Sending
+- [ ] https://jobs.lever.co/qonto/a2a71652-40f6-4c1a-8ae1-90127e0ce1cf | Qonto | Senior/Staff -  Backend Engineer - remote friendly
+- [ ] https://jobs.lever.co/qonto/1fb7a10a-9377-47d4-99f6-e826880c3a6b | Qonto | Senior/Staff - Backend Engineer - remote friendly
+- [ ] https://job-boards.greenhouse.io/redpandadata/jobs/4690772005 | Redpanda Data | Principal Software Engineer, Agentic Data Plane
+- [ ] https://job-boards.greenhouse.io/redpandadata/jobs/4691452005 | Redpanda Data | Senior Software Engineer, Core Enterprise
+- [ ] https://job-boards.greenhouse.io/redpandadata/jobs/4693033005 | Redpanda Data | Sr. Engineering Manager, Cloud
+- [ ] https://job-boards.greenhouse.io/redpandadata/jobs/4693330005 | Redpanda Data | Staff Software Engineer, Agentic Data Plane
+- [ ] https://job-boards.greenhouse.io/redpandadata/jobs/4692611005 | Redpanda Data | Staff Software Engineer, Cloud
+- [ ] https://jobs.lever.co/mistral/cb2986cc-4768-40b9-9d67-e53d78b247dc | Mistral AI | Applied AI, Technical Lead, Forward Deployed AI Engineer - Abu Dhabi
+- [ ] https://jobs.lever.co/mistral/9a6c0605-8beb-4122-99c8-ae96beea691b | Mistral AI | Solutions Architect, Partner - EMEA
+- [ ] https://jobs.lever.co/palantir/3d06b4bc-6a7b-4f73-b5c5-4544354e3d0f | Palantir | Edge Infrastructure Engineer
+- [ ] https://jobs.lever.co/palantir/0fccbe95-2520-4df3-8600-7897656c06a2 | Palantir | Forward Deployed Infrastructure Engineer - US Government
+- [ ] https://jobs.lever.co/spotify/805d36ed-624c-41d4-9eaa-6f4bff7f53e3 | Spotify | Backend Engineer - Ads Measurement
+- [ ] https://jobs.lever.co/spotify/0f8f7921-bcb4-444c-8ceb-4d3fa6459493 | Spotify | Backend Engineer - Music
+- [ ] https://jobs.lever.co/spotify/52550fb5-79dc-4bb6-af24-5364a1af2c44 | Spotify | Engineering Manager - AI Fleet Management & Honk
+- [ ] https://jobs.lever.co/spotify/050e9c0b-2087-4438-bc5e-54b0601a44dc | Spotify | Engineering Manager - Core Experience (Format Foundations)
+- [ ] https://jobs.lever.co/spotify/7296f4cc-e5d1-4d63-8d2c-ebf0d5f7a10a | Spotify | Engineering Manager - Core Infrastructure
+- [ ] https://jobs.lever.co/spotify/b12565d7-30fb-4eee-84df-9ea90da70174 | Spotify | Engineering Manager - Social Listening
+- [ ] https://jobs.lever.co/spotify/fd0b87ca-dec2-4bec-8341-4911c88851b6 | Spotify | Engineering Manager II - Analytics Platform
+- [ ] https://jobs.lever.co/spotify/8fa32f77-1067-4e2b-a148-e3e198e006ca | Spotify | Machine Learning Engineering Manager - Music
+- [ ] https://jobs.lever.co/spotify/05c0fde5-9553-4b1a-95ea-2b46f0e670bb | Spotify | Senior Backend Engineer - Music
+- [ ] https://jobs.lever.co/spotify/b2116fac-5c9d-4f89-8753-b6c0bef1b380 | Spotify | Senior Engineering Manager - Native Ads
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7859782 | Marqeta | Senior Software Engineer - Data Infrastructure
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7848579 | Marqeta | Staff Software Engineer - Kubernetes Operations 
+- [ ] https://boards.greenhouse.io/chime/jobs/8522059002?gh_jid=8522059002 | Chime | Engineering Manager, Growth Engineering
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7241686 | Nubank | Mobile Staff Software Engineer 
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/6968954 | Nubank | Senior Software Engineer
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/6973841 | Nubank | Staff Software Engineer
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7742784 | Nubank | Staff Software Engineer | Credit Cards
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7904110 | Nubank | Staff Software Engineer - PJ
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7760390?t=gh_src=&gh_jid=7760390 | Robinhood | Engineering Manager, Margin
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7905675?t=gh_src=&gh_jid=7905675 | Robinhood | Senior Engineering Manager, Agentic AI
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7125765?t=gh_src=&gh_jid=7125765 | Robinhood | Senior Product Manager, Trading Platform
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7899482?t=gh_src=&gh_jid=7899482 | Robinhood | Senior Software Engineer, Security Platform
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7819461?t=gh_src=&gh_jid=7819461 | Robinhood | Staff Software Engineer, Security
+- [ ] https://www.brex.com/careers/8395068002?gh_jid=8395068002 | Brex | Engineering Manager, AI — Brex Assistant
+- [ ] https://www.brex.com/careers/8534633002?gh_jid=8534633002 | Brex | Engineering Manager, Cloud Infrastructure
+- [ ] https://www.brex.com/careers/8339037002?gh_jid=8339037002 | Brex | Engineering Manager, GTM Engineering 
+- [ ] https://www.brex.com/careers/8461599002?gh_jid=8461599002 | Brex | Engineering Manager, Onboarding
+- [ ] https://www.brex.com/careers/8536938002?gh_jid=8536938002 | Brex | Senior Engineering Manager, Acquisition
+- [ ] https://www.brex.com/careers/8536763002?gh_jid=8536763002 | Brex | Senior Software Engineer, Frontend
+- [ ] https://www.brex.com/careers/8472632002?gh_jid=8472632002 | Brex | Senior Software Engineer, Full Stack
+- [ ] https://www.brex.com/careers/8461333002?gh_jid=8461333002 | Brex | Senior Software Engineer, Product 
+- [ ] https://www.brex.com/careers/8430197002?gh_jid=8430197002 | Brex | Senior Software Engineer, Product Data Platform
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7715530003 | Affirm | IT Engineering Manager (Endpoint Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7511993003 | Affirm | Senior Software Engineer, Backend (Cloud Compute)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/6642238003 | Affirm | Senior Software Engineer, Backend (Comms Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7703207003 | Affirm | Senior Software Engineer, Backend (Continuous Delivery)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7636416003 | Affirm | Senior Software Engineer, Backend (Merchant Advocacy)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7651523003 | Affirm | Senior Software Engineer, Backend (Merchant Data Platform EU)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7471143003 | Affirm | Senior Software Engineer, Backend (Merchant Interfaces)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7663434003 | Affirm | Senior Software Engineer, Fullstack (Consumer Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/6922638003 | Affirm | Senior Software engineer (Furnishing Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7710978003 | Affirm | Senior Staff Software Engineer, Consumer Engineering (Web Infra)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7617859003 | Affirm | Staff Software Engineer
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7719649003 | Affirm | Staff Software Engineer, Backend (Capacity Modeling)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7581664003 | Affirm | Staff Software Engineer, Backend (Growth Platform)
+- [ ] https://jobs.ashbyhq.com/neon/6d351ed6-76f6-4a9d-ab63-4f4dbf7e981f | Neon Database | Senior Software Engineer
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984487004 | Grafana Labs | Engineering Manager, Observability Dept | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984495004 | Grafana Labs | Engineering Manager, Observability Dept | Ireland | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984491004 | Grafana Labs | Engineering Manager, Observability Dept | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984494004 | Grafana Labs | Engineering Manager, Observability Dept | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984490004 | Grafana Labs | Engineering Manager, Observability Dept | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984500004 | Grafana Labs | Engineering Manager, Observability Dept | USA EST | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5972020004 | Grafana Labs | Senior Engineering Manager, Grafana Backend | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5972019004 | Grafana Labs | Senior Engineering Manager, Grafana Backend | US | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984599004 | Grafana Labs | Senior Software Engineer - Application Core Services | Spain | Remote 
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5989632004 | Grafana Labs | Senior Software Engineer - Grafana Databases, Managed Services | Ireland | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5989629004 | Grafana Labs | Senior Software Engineer - Grafana Databases, Managed Services | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5989631004 | Grafana Labs | Senior Software Engineer - Grafana Databases, Managed Services | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5990824004 | Grafana Labs | Senior Solutions Engineer | California | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5985793004 | Grafana Labs | Staff Backend Engineer - Application Core Services, Stacks | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5968728004 | Grafana Labs | Staff Backend Engineer - Application Core Services, Stacks | USA | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988483004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform| Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988513004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform | Germany | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988519004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform | Ireland | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988514004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform | Spain | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988515004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform | Sweden | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988502004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform | UK | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988484004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform| US| Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5984735004 | Grafana Labs | Staff Solutions Engineer | East Coast | Remote
+
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7742203 | Intercom | Principal Engineer, Fin AI Agent
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7825844 | Intercom | Senior Engineering Manager, Fin AI Agent
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5206978008 | Anthropic | Staff Infrastructure Engineer, Cluster Infrastructure
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5211241008 | Anthropic | Staff Software Engineer, Kubernetes Platform
+- [ ] https://www.scandit.com/careers/job-description/?gh_jid=7563161 | Scandit | Engineering Manager, Platform 
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8540492002 | Wayve | Tech Lead / Manager - Trajectory Generation and Controls
+- [ ] https://www.brex.com/careers/8534621002?gh_jid=8534621002 | Brex | Engineering Manager, Cloud Infrastructure
+- [ ] https://www.brex.com/careers/8367553002?gh_jid=8367553002 | Brex | Engineering Manager, GTM Engineering 
+- [ ] https://www.brex.com/careers/8461600002?gh_jid=8461600002 | Brex | Engineering Manager, Onboarding
+- [ ] https://www.brex.com/careers/8536942002?gh_jid=8536942002 | Brex | Senior Engineering Manager, Acquisition
+- [ ] https://www.brex.com/careers/8501025002?gh_jid=8501025002 | Brex | Senior Software Engineer, Frontend
+- [ ] https://www.brex.com/careers/8472635002?gh_jid=8472635002 | Brex | Senior Software Engineer, Full Stack
+- [ ] https://www.brex.com/careers/8461469002?gh_jid=8461469002 | Brex | Senior Software Engineer, Product 
+- [ ] https://www.brex.com/careers/8430196002?gh_jid=8430196002 | Brex | Senior Software Engineer, Product Data Platform
+- [ ] https://job-boards.greenhouse.io/marqeta/jobs/7908713 | Marqeta | Senior Software Engineer - Data Infrastructure
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7715528003 | Affirm | IT Engineering Manager (Endpoint Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7617857003 | Affirm | Staff Software Engineer
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7719647003 | Affirm | Staff Software Engineer, Backend (Capacity Modeling)
+- [ ] https://boards.greenhouse.io/robinhood/jobs/7760392?t=gh_src=&gh_jid=7760392 | Robinhood | Engineering Manager, Margin
+- [ ] https://jobs.lever.co/palantir/ce20af4c-4de3-4079-bbdf-bc30a2e25404 | Palantir | Edge Infrastructure Engineer
+- [ ] https://job-boards.greenhouse.io/nubank/jobs/7317710 | Nubank | Staff Software Engineer
+- [ ] https://jobs.lever.co/spotify/4cf40d3f-0ba2-443a-9ed1-62f7cdccba7b | Spotify | Senior Backend Engineer - Music
 
 ## Procesadas

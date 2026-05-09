@@ -34,14 +34,16 @@
 ## Diseno del PDF
 
 - **Fonts**: DM Sans (all text, self-hosted in `fonts/`)
-- **Header**: nombre en DM Sans 24px bold, izquierda alineado + linea horizontal negro 1.5px + fila de contacto "Location &bull; Phone &bull; Email &bull; LinkedIn"
-- **Section headers**: DM Sans 11.5px, uppercase, letter-spacing 0.04em, negro con borde inferior negro 1px solido
-- **Body**: DM Sans 11px, line-height 1.5
-- **Company names**: negro, bold 700
+- **Header**: nombre en DM Sans 24px bold, izquierda alineado → fila de contacto (10px, gris oscuro) → luego comienza el contenido. Sin línea horizontal entre nombre y contacto.
+- **Section headers**: DM Sans 11px, uppercase, letter-spacing 0.05em, negro con borde inferior negro **1.5px** solido
+- **Body**: DM Sans 10.5px, line-height 1.45–1.55
+- **Bullet style**: disc (`list-style-type: disc`), inline `<strong>` para keywords clave dentro de cada bullet
+- **Company names**: negro, bold 700, 11px
 - **Role/title**: italica, 10.5px, negro
-- **Sin colores de acento** -- todo negro y gris oscuro
-- **Margenes**: 0.6in
+- **Sin colores de acento** -- todo negro. Sin tag pills, sin colores de fondo en skills.
+- **Margenes**: 40px top/bottom, 52px left/right (equivalente a ~0.5in)
 - **Background**: blanco puro
+- **Skills section**: Una fila por categoria, formato `**Category:** item1, item2, ...`. Categorías estándar: Languages, Messaging & Event-Driven, Backend & Frameworks, Databases, Cloud & Infrastructure, CI/CD & Quality, Observability & ITSM, Frontend (si aplica), Delivery
 
 ## Orden de secciones (optimizado "6-second recruiter scan")
 
@@ -85,7 +87,7 @@ Usar el template en `cv-template.html`. Reemplazar los placeholders `{{...}}` co
 | `{{EDUCATION}}` | HTML de educacion. Cada item: `<div class="edu-item"><div class="edu-header"><span class="edu-org">University</span><span class="edu-year">Year</span></div><div class="edu-title">Degree</div></div>` |
 | `{{CERTIFICATIONS_SECTION}}` | Bloque HTML completo `<div class="section avoid-break"><div class="section-title">...</div>{{CERTIFICATIONS}}</div>` — omitir completamente si no hay certificaciones |
 | `{{SECTION_SKILLS}}` | Technical Skills / Habilidades Tecnicas |
-| `{{SKILLS}}` | Una `<div class="skill-row"><span class="skill-category">Category:</span> items</div>` por categoria |
+| `{{SKILLS}}` | Una `<div class="skill-row"><span class="skill-category">Category:</span> items</div>` por categoria. Categorías estándar (reordenar por relevancia al JD): Languages, Messaging &amp; Event-Driven, Backend &amp; Frameworks, Databases, Cloud &amp; Infrastructure, CI/CD &amp; Quality, Observability &amp; ITSM, Frontend (si aplica), Delivery |
 
 ## Canva CV Generation (optional)
 

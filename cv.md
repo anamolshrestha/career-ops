@@ -20,9 +20,11 @@ Backend-focused Principal Software Engineer with 8+ years of experience building
 - Architected and led development of Java Spring Boot backend APIs powering the OpsWorX interoperability platform, serving 20+ internal and partner engineering teams across Fidelity's enterprise workspace — supporting 99.9% platform uptime in production.
 - Engineered the SDK event management framework, reducing cross-application data propagation latency by 40% and cutting inter-app communication failures by 60%, directly improving reliability for 50+ hosted applications and thousands of daily active users.
 - Drove architectural decision-making for migration of 15+ legacy WPF/Prism applications to a modern microservices-based hosting platform — delivering zero-downtime cutover and reducing deployment cycle time by 35%.
-- Own and maintain the OpsWorX Desktop Application — an Electron + Angular/TypeScript platform and Desktop SDK consumed by 20+ teams, enabling interoperable multi-app workflows across Fidelity's 40,000+ employee organization.
-- Designed and enhanced cross-application communication APIs via io.Connect, enabling real-time data sharing, advanced window management, and global notifications with sub-50ms event propagation.
+- Own and maintain the OpsWorX Desktop Application — an **Electron + Angular/TypeScript** platform and Desktop SDK consumed by 20+ teams, enabling interoperable multi-app workflows across Fidelity's 40,000+ employee organization.
+- Authored and maintained the **TypeScript Desktop SDK** — a typed API surface consumed by 20+ partner teams, with strong typing, versioned contracts, and published integration documentation that reduced onboarding time by 50%.
+- Designed and enhanced **TypeScript-based cross-application event APIs** via io.Connect, enabling real-time data sharing, advanced window management, and global notifications with sub-50ms event propagation.
 - Partnered with Interop.io and internal platform teams to standardize REST API integration patterns, reducing partner team onboarding time by 50% and eliminating platform fragmentation across 5+ business units.
+- Automated CI/CD pipelines using Jenkins, integrated SonarQube for code quality enforcement, and managed cloud infrastructure as code using Terraform; collaborated with DevOps and QA teams to standardize delivery processes across 5+ business units.
 - Mentored 5+ engineers through design reviews and hands-on technical guidance; established coding standards adopted platform-wide, accelerating feature delivery velocity by 25%.
 
 ### Sr. Java Developer — Special Assets Platform
@@ -43,11 +45,6 @@ Backend-focused Principal Software Engineer with 8+ years of experience building
 - Led platform transition from Java monolith to microservices on PCF/AWS, decomposing 12 tightly coupled services — improving deployment frequency by 4x and reducing production incidents by 30%.
 
 ---
-
-### Software Engineer
-**USAA** | Jan 2017 – Aug 2018
-
-- Early-career backend engineering role at USAA, a financial services company serving military members and their families.
 
 ---
 

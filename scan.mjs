@@ -40,6 +40,11 @@ function detectApi(company) {
     return { type: 'greenhouse', url: company.api };
   }
 
+  // Workday: explicit workday_api field
+  if (company.workday_api) {
+    return { type: 'workday', url: company.workday_api };
+  }
+
   const url = company.careers_url || '';
 
   // Ashby
@@ -104,7 +109,20 @@ function parseLever(json, companyName) {
   }));
 }
 
-const PARSERS = { greenhouse: parseGreenhouse, ashby: parseAshby, lever: parseLever };
+function parseWorkday(json, companyName) {
+  const postings = json.jobPostings || [];
+  // Derive base URL from the first entry's externalPath — reconstruct domain from config
+  return postings.map(j => ({
+    title: j.title || '',
+    url: j.externalPath
+      ? `https://www.myworkdayjobs.com${j.externalPath}`
+      : '',
+    company: companyName,
+    location: j.locationsText || '',
+  })).filter(j => j.url);
+}
+
+const PARSERS = { greenhouse: parseGreenhouse, ashby: parseAshby, lever: parseLever, workday: parseWorkday };
 
 // ── Fetch with timeout ──────────────────────────────────────────────
 
@@ -113,6 +131,23 @@ async function fetchJson(url) {
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
     const res = await fetch(url, { signal: controller.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchJsonPost(url, body) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+      signal: controller.signal,
+    });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
   } finally {
@@ -292,7 +327,18 @@ async function main() {
   const tasks = targets.map(company => async () => {
     const { type, url } = company._api;
     try {
-      const json = await fetchJson(url);
+      let json;
+      if (type === 'workday') {
+        json = await fetchJsonPost(url, {
+          limit: 100,
+          offset: 0,
+          searchText: '',
+          locations: [],
+          jobCategories: [],
+        });
+      } else {
+        json = await fetchJson(url);
+      }
       const jobs = PARSERS[type](json, company.name);
       totalFound += jobs.length;
 
